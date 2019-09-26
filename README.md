@@ -13,6 +13,10 @@ Complete the following steps to start a new project (NEW-PROJECT-NAME):
 5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
 6. Edit the contents of the `package.json` to use `"name": "NEW-PROJECT-NAME"` instead of `"name": "express-boilerplate",`
 
+### Abridged version: 
+1. Pick a project name, `PROJECT-NAME-HERE`
+2. `projectname=PROJECT-NAME-HERE && git clone git@github.com:jamesjenkinsjr/express-boilerplate.git $projectname && cd $_ && rm -rf .git && git init && npm i && mv example.env .env && vim package.json && git add -A && git commit -m "initial server commit"` (NOTE: You will be prompted to use vim to edit package.json project name)
+
 ## Scripts
 
 Start the application `npm start`
